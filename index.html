@@ -14,14 +14,13 @@
     />
     
     <script type="module" crossorigin src="/primeGum/commonHelpers2.js"></script>
-    <link rel="stylesheet" href="/primeGum/assets/index-5782b282.css">
+    <link rel="stylesheet" href="/primeGum/assets/index-85686966.css">
   </head>
   <body>
     <header class="header">
-  <div class="container">
+  <div class="container header-container">
     <!-- LOGO -->
     <a href="./index.html" class="logo header-logo">energy.flow</a>
-
     <!-- NAV -->
     <ul class="header-nav">
       <li class="header-nav-item">
@@ -31,9 +30,8 @@
         <a class="header-nav-link" href="./favorites.html">Favorites</a>
       </li>
     </ul>
-
     <!-- SOC-LINK -->
-    <ul>
+    <ul class="header-soc-list">
       <li class="header-soc-item">
         <a
           href=" https://www.facebook.com/goITclub/"
@@ -74,97 +72,96 @@
         </a>
       </li>
     </ul>
-
     <!-- BURGER -->
-    <a
+    <button
       href=""
-      class="header-mob-link"
+      class="header-mob-btn"
       aria-label="Burger menu"
       rel="noopener noreferrer"
     >
       <svg class="header-mob-icon" width="32" height="16">
         <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-burger-menu"></use>
       </svg>
-    </a>
-
-    <!-- MOB MENU -->
-
-    <div class="header-mob-menu">
-      <div class="mob-wrap">
-        <!-- MOB-LOGO -->
-        <a href="./index.html" class="logo mob-logo">energy.flow</a>
-
-        <!-- CLOSE-BTN -->
-        <a
-          href=""
-          class="close-mob-link"
-          aria-label="Close menu"
-          rel="noopener noreferrer"
-        >
-          <svg class="close-mob-icon" width="20" height="20">
-            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-close-btn"></use>
-          </svg>
-        </a>
-      </div>
-
-      <!-- MOB-NAV -->
-
-      <ul class="mob-nav">
-        <li class="mob-nav-item">
-          <a class="mob-nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="mob-nav-item">
-          <a class="mob-nav-link" href="./favorites.html">Favorites</a>
-        </li>
-      </ul>
-
-      <!-- MOB - SOC LINK -->
-      <ul>
-        <li class="mob-soc-item">
-          <a
-            href=" https://www.facebook.com/goITclub/"
-            class="mob-soc-link"
-            aria-label="link to Facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg class="mob-soc-icon soc-icon" width="28" height="28">
-              <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-soc-item">
-          <a
-            href=" https://www.instagram.com/goitclub/"
-            class="mob-soc-link"
-            aria-label="link to Instargam"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg class="mob-soc-icon soc-icon" width="28" height="28">
-              <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-soc-item">
-          <a
-            href="https://www.youtube.com/c/GoIT"
-            class="mob-soc-link"
-            aria-label="link to YouTube"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg class="mob-soc-icon soc-icon" width="28" height="28">
-              <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
+    </button>
   </div>
 </header>
 
-    <section class="hero">
+<!-- MOB MENU -->
+
+<div class="backdrop">
+  <div class="header-mob-menu">
+    <div class="mob-wrap">
+      <!-- MOB-LOGO -->
+      <a href="./index.html" class="logo mob-logo">energy.flow</a>
+
+      <!-- CLOSE-BTN -->
+      <button
+        href=""
+        class="close-mob-btn"
+        aria-label="Close menu"
+        rel="noopener noreferrer"
+      >
+        <svg class="close-mob-icon" width="20" height="20">
+          <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+    </div>
+
+    <!-- MOB-NAV -->
+    <ul class="mob-nav">
+      <li class="mob-nav-item">
+        <a class="mob-nav-link is-active" href="./index.html">Home</a>
+      </li>
+      <li class="mob-nav-item">
+        <a class="mob-nav-link" href="./favorites.html">Favorites</a>
+      </li>
+    </ul>
+    <!-- MOB - SOC LINK -->
+    <ul class="mob-soc-list">
+      <li class="mob-soc-item">
+        <a
+          href=" https://www.facebook.com/goITclub/"
+          class="mob-soc-link"
+          aria-label="link to Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="mob-soc-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-soc-item">
+        <a
+          href=" https://www.instagram.com/goitclub/"
+          class="mob-soc-link"
+          aria-label="link to Instargam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="mob-soc-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mob-soc-item">
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          class="mob-soc-link"
+          aria-label="link to YouTube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="mob-soc-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <!-- <section class="hero">
   <div class="hero-bg">
     <ul class="hero-list">
       <li class="hero-item"><p class="hero-hashtag">#Sport</p></li>
@@ -180,7 +177,7 @@
       comprehensive fitness and nutrition support.
     </p>
   </div>
-</section>
+</section> -->
 
     
     
