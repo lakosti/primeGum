@@ -1,11 +1,11 @@
 {
-  "name": "project-team-6",
+  "name": "prime_gum",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-team-6/",
+    "build": "vite build --base=/primeGum/",
     "preview": "vite preview"
   },
   "devDependencies": {
