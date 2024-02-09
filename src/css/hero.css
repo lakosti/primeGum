@@ -1,7 +1,6 @@
 /* letter-spacing в em = 3.5em * (-2% / 100) = -0.07em. */
-
 .hero {
-  background-color: #bfbaba;
+  /* background-color: #bfbaba; */
   margin-bottom: 20px;
 }
 .hero-bg {
@@ -72,13 +71,13 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-  color: rgb(246, 246, 246);
+  color: var(--white-dirty);
 }
 .hero-content {
   padding: 60px 20px 81px 20px;
   width: 335px;
   border-radius: 30px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white);
 }
 .hero-title {
   margin-bottom: 20px;
@@ -88,7 +87,7 @@
   letter-spacing: -0.07em;
 }
 .title-accent {
-  color: rgb(126, 132, 127);
+  color: var(--grey);
   font-style: italic;
 }
 .hero-label {
@@ -142,6 +141,8 @@
     line-height: 1.5;
   }
 }
+
+/* DESK VERSION */
 
 @media screen and (min-width: 1440px) {
   .hero-bg {
