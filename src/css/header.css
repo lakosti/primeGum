@@ -139,21 +139,22 @@
     align-items: center;
     justify-content: center;
   }
-  .header-nav {
-    gap: 16px;
-  }
+
   .header-nav {
     padding: 8px 28px;
     width: 211px;
     height: 51px;
     background-color: var(--grey);
     border-radius: 60px;
+    gap: 16px;
   }
   .header-soc-list {
     gap: 12px;
     padding-right: 32px;
   }
   .header-soc-item {
+    width: 44px;
+    height: 44px;
     line-height: 1.5;
     border: 1px solid rgba(126, 132, 127, 0.2);
   }
@@ -173,5 +174,12 @@
   }
   .header-soc-list {
     padding-right: 48px;
+  }
+  .header-soc-icon {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-soc-link:hover > .header-soc-icon {
+    fill: rgb(95, 101, 96);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

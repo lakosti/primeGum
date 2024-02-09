@@ -106,6 +106,7 @@
   .hero-bg {
     width: 248px;
     height: 884px;
+    margin-bottom: 0;
   }
   .hero-content {
     height: 884px;
