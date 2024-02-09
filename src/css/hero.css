@@ -120,6 +120,9 @@
     letter-spacing: -0.07em;
     margin-bottom: 25px;
   }
+  .hero-item {
+    padding: 4px 16px;
+  }
   .hero-label {
     width: 378px;
     font-weight: 400;
@@ -131,11 +134,36 @@
     gap: 8px;
     bottom: 64px;
     right: 20px;
-    left: 32px;
-    width: 196px;
+    left: 18px;
+    width: 200px;
   }
   .hero-hashtag {
     font-size: 16px;
     line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-bg {
+    width: 704px;
+  }
+  .hero-content {
+    width: 704px;
+    padding: 225px 32px 241px 32px;
+  }
+  .hero-title {
+    font-size: 120px;
+    line-height: 1.04;
+  }
+  .hero-label {
+    width: 520px;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.03em;
+  }
+  .hero-list {
+    bottom: 32px;
+    left: 48px;
+    width: 200px;
   }
 }
