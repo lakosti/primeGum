@@ -1,8 +1,6 @@
 .header {
   position: absolute;
   top: 20px;
-  /* padding-left: 20px;
-  padding-right: 20px; */
   width: 100%;
   z-index: 2;
 }
@@ -44,7 +42,6 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
-  /* max-width: calc(100vw - 40px); */
   width: 345px;
   height: 100vh;
   display: flex;
@@ -136,6 +133,9 @@
     font-size: 28px;
     line-height: 1;
   }
+  .header-logo {
+    padding-left: 32px;
+  }
   .header-mob-btn,
   .header-mob-menu {
     display: none;
@@ -156,13 +156,12 @@
     background-color: rgb(126, 132, 127);
     border-radius: 60px;
   }
-  .header-nav-link {
-    line-height: 1.5;
-  }
   .header-soc-list {
     gap: 12px;
+    padding-right: 32px;
   }
   .header-soc-item {
+    line-height: 1.5;
     border: 1px solid rgba(126, 132, 127, 0.2);
   }
   .header-soc-icon {
@@ -175,5 +174,11 @@
 @media screen and (min-width: 768px) {
   .header-nav {
     padding: 8px 16px;
+  }
+  .header-logo {
+    padding-left: 48px;
+  }
+  .header-soc-list {
+    padding-right: 48px;
   }
 }
