@@ -158,6 +158,7 @@
     border-radius: 50px;
   }
 
+
   .footer-wrap {
     display: flex;
     gap: 145px;
@@ -207,6 +208,8 @@
   .footer-label:first-child {
     margin-bottom: 0;
   }
+
+
 }
 @media screen and (min-width: 1440px) {
   .footer-bg {
@@ -214,6 +217,7 @@
     width: 1408px;
     height: 454px;
   }
+
   .tablet-wrap {
     display: flex;
   }
