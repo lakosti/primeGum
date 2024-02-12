@@ -110,6 +110,7 @@
   .hero-content {
     height: 884px;
     flex-grow: 1;
+    border-radius: 50px;
     padding: 215px 32px 192px 32px;
     border-top-left-radius: 0;
   }
