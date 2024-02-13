@@ -5,156 +5,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Favorites</title>
     
-    <script type="module" crossorigin src="/primeGum/assets/header-hero-f75083df.js"></script>
-    <link rel="stylesheet" href="/primeGum/assets/header-hero-b62792e5.css">
+    <script type="module" crossorigin src="/primeGum/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/primeGum/assets/styles-33d25b6e.js">
+    <link rel="stylesheet" href="/primeGum/assets/styles-ad18093e.css">
   </head>
-  <body>
+  <body class="favorities-body">
     <header class="header">
-      <div class="container header-container">
-        <!-- LOGO -->
-        <a href="./index.html" class="logo header-logo">energy.flow</a>
-        <!-- NAV -->
-        <ul class="header-nav">
-          <li class="header-nav-item">
-            <a class="header-nav-link no-active" href="./index.html">Home</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link is-active" href="./favorites.html"
-              >Favorites</a
-            >
-          </li>
-        </ul>
-        <!-- SOC-LINK -->
-        <ul class="header-soc-list">
-          <li class="header-soc-item">
-            <a
-              href=" https://www.facebook.com/goITclub/"
-              class="header-soc-link"
-              aria-label="link to Facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="header-soc-icon soc-icon" width="28" height="28">
-                <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-soc-item">
-            <a
-              href=" https://www.instagram.com/goitclub/"
-              class="header-soc-link"
-              aria-label="link to Instargam"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="header-soc-icon soc-icon" width="28" height="28">
-                <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-soc-item">
-            <a
-              href="https://www.youtube.com/c/GoIT"
-              class="header-soc-link"
-              aria-label="link to YouTube"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="header-soc-icon soc-icon" width="28" height="28">
-                <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-youtube"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-
-        <!-- BURGER -->
-        <button
-          href=""
-          class="header-mob-btn js-open-menu"
-          aria-label="Burger menu"
+  <div class="container header-container">
+    <!-- LOGO -->
+    <a href="./index.html" class="logo header-logo">energy.flow</a>
+    <!-- NAV -->
+    <ul class="header-nav">
+      <li class="header-nav-item">
+        <a class="header-nav-link is-active" href="./index.html">Home</a>
+      </li>
+      <li class="header-nav-item">
+        <a class="header-nav-link no-active" href="./favorites.html"
+          >Favorites</a
+        >
+      </li>
+    </ul>
+    <!-- SOC-LINK -->
+    <ul class="header-soc-list">
+      <li class="header-soc-item">
+        <a
+          href=" https://www.facebook.com/goITclub/"
+          class="header-soc-link"
+          aria-label="link to Facebook"
+          target="_blank"
           rel="noopener noreferrer"
         >
-          <svg class="header-mob-icon" width="32" height="16">
-            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-burger-menu"></use>
+          <svg class="header-soc-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-facebook"></use>
           </svg>
-        </button>
-      </div>
-    </header>
-
-    <!-- MOB MENU -->
-    <div class="header-mob-menu js-menu-container is-hidden">
-      <div class="mob-wrap">
-        <!-- MOB-LOGO -->
-        <a href="./index.html" class="logo mob-logo">energy.flow</a>
-
-        <!-- CLOSE-BTN -->
-        <button
-          href=""
-          class="close-mob-btn close-menu-btn js-close-menu"
-          aria-label="Close menu"
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a
+          href=" https://www.instagram.com/goitclub/"
+          class="header-soc-link"
+          aria-label="link to Instargam"
+          target="_blank"
           rel="noopener noreferrer"
         >
-          <svg class="close-mob-icon" width="20" height="20">
-            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-close-btn"></use>
+          <svg class="header-soc-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-instagram"></use>
           </svg>
-        </button>
-      </div>
+        </a>
+      </li>
+      <li class="header-soc-item">
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          class="header-soc-link"
+          aria-label="link to YouTube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="header-soc-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
 
-      <!-- MOB-NAV -->
-      <ul class="mob-nav">
-        <li class="mob-nav-item">
-          <a class="mob-nav-link no-active" href="./index.html">Home</a>
-        </li>
-        <li class="mob-nav-item">
-          <a class="mob-nav-link is-active" href="./favorites.html"
-            >Favorites</a
-          >
-        </li>
-      </ul>
-      <!-- MOB - SOC LINK -->
-      <ul class="mob-soc-list">
-        <li class="mob-soc-item">
-          <a
-            href=" https://www.facebook.com/goITclub/"
-            class="mob-soc-link"
-            aria-label="link to Facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg class="mob-soc-icon soc-icon" width="25" height="25">
-              <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-soc-item">
-          <a
-            href=" https://www.instagram.com/goitclub/"
-            class="mob-soc-link"
-            aria-label="link to Instargam"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg class="mob-soc-icon soc-icon" width="25" height="25">
-              <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="mob-soc-item">
-          <a
-            href="https://www.youtube.com/c/GoIT"
-            class="mob-soc-link"
-            aria-label="link to YouTube"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg class="mob-soc-icon soc-icon" width="25" height="25">
-              <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+    <!-- BURGER -->
+    <button
+      class="header-mob-btn js-open-menu"
+      aria-label="Burger menu"
+      rel="noopener noreferrer"
+    >
+      <svg class="header-mob-icon" width="32" height="16">
+        <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-burger-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- MOB MENU -->
+<div class="header-mob-menu js-menu-container is-hidden">
+  <div class="mob-wrap">
+    <!-- MOB-LOGO -->
+    <a href="./index.html" class="logo mob-logo">energy.flow</a>
+
+    <!-- CLOSE-BTN -->
+    <button
+      class="close-mob-btn close-menu-btn js-close-menu"
+      aria-label="Close menu"
+      rel="noopener noreferrer"
+    >
+      <svg class="close-mob-icon" width="20" height="20">
+        <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+  </div>
+
+  <!-- MOB-NAV -->
+  <ul class="mob-nav">
+    <li class="mob-nav-item">
+      <a class="mob-nav-link is-active" href="./index.html">Home</a>
+    </li>
+    <li class="mob-nav-item">
+      <a class="mob-nav-link no-active" href="./favorites.html">Favorites</a>
+    </li>
+  </ul>
+  <!-- MOB - SOC LINK -->
+  <ul class="mob-soc-list">
+    <li class="mob-soc-item">
+      <a
+        href=" https://www.facebook.com/goITclub/"
+        class="mob-soc-link"
+        aria-label="link to Facebook"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="mob-soc-icon soc-icon" width="25" height="25">
+          <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mob-soc-item">
+      <a
+        href=" https://www.instagram.com/goitclub/"
+        class="mob-soc-link"
+        aria-label="link to Instargam"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="mob-soc-icon soc-icon" width="25" height="25">
+          <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="mob-soc-item">
+      <a
+        href="https://www.youtube.com/c/GoIT"
+        class="mob-soc-link"
+        aria-label="link to YouTube"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="mob-soc-icon soc-icon" width="25" height="25">
+          <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-youtube"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- <script src="./js/header-hero.js" type="module"></script> -->
+
+    <div class="quote-fav-wrap">
+      <section class="quote">
+  <div class="container">
+    <div class="quote-content">
+      <div class="quote-wrap">
+        <div class="run-icon-wrap">
+          <svg class="quote-run-man soc-icon" width="18" height="20">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-running-man"></use>
+          </svg>
+        </div>
+        <h2 class="quote-title">Quote of the day</h2>
+        <div class="icon-quote-wrap">
+          <svg class="quote-icon soc-icon" width="28" height="28">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-quotes"></use>
+          </svg>
+        </div>
+      </div>
+      <p class="js-quote-text quote-text"></p>
+      <p class="js-quote-author quote-author"></p>
+    </div>
+    <div class="quote-bg"></div>
+  </div>
+</section>
+
+      <div class="container">
+        <div class="third-block">
+          <svg class="fav-icon soc-icon" width="20" height="20">
+            <use href="/primeGum/assets/icons-66c1ea1d.svg#icon-letter-H"></use>
+          </svg>
+          <p class="third-time">110 min</p>
+          <p class="third-text">Daily norm of sports</p>
+        </div>
+      </div>
     </div>
 
+    <div class="container">
+      <section class="favorites">
+        <h1 class="favorites-title">Favorites</h1>
+        <div class="favorites-wrap">
+          <picture class="fav-img">
+            <source
+              media="(min-width: 768px)"
+              srcset="/primeGum/assets/dumbbell@2x-9a7a77f8.png "
+              type="image/png"
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="/primeGum/assets/dumbbell-tab-6b787234.png "
+              type="image/png"
+            />
+            <img
+              class="dumbbell-photo"
+              src="/primeGum/assets/dumbbell-tab-6b787234.png"
+              alt="dumbbell"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <p class="favorites-text">
+          It appears that you haven't added any exercises to your favorites yet.
+          To get started, you can add exercises that you like to your favorites
+          for easier access in the future.
+        </p>
+        <ul class="js-favorite-list favorite-list"></ul>
+      </section>
+    </div>
+
+    <!-- <script src="./favorites.js" type="module"></script> -->
+    
     
   </body>
 </html>
