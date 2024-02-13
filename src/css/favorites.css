@@ -73,6 +73,16 @@
     font-size: 18px;
     margin: 0 auto;
   }
+  .third-block {
+    padding: 106px 118px;
+    width: 368px;
+    height: 302px;
+    border-radius: 50px;
+  }
+  .third-time {
+    font-size: 24px;
+    line-height: 1.33;
+  }
 }
 @media screen and (min-width: 1440px) {
   .favorities-body {
@@ -88,5 +98,10 @@
   }
   .favorites-title {
     margin-bottom: 146px;
+  }
+  .third-block {
+    padding: 106px 110px;
+    width: 352px;
+    border-radius: 50px;
   }
 }
