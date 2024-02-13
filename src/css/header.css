@@ -43,7 +43,7 @@
   transform: translateX(-50%);
   z-index: 4;
   width: 345px;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
